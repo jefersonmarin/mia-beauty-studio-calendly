@@ -80,9 +80,7 @@ export default function Services() {
             <div className="p-5 text-center">
               <h3 className="text-lg font-semibold text-gray-800 mb-3">{servico.nome}</h3>
               <a
-                href={`https://wa.me/555499180188?text=${encodeURIComponent(
-                  `Olá! Estou entrando em contato através do site e gostaria de agendar o serviço ${servico.nome} no Mia Beauty Studio.`
-                )}`}
+                href="https://calendly.com/jefersong-marin2002/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full bg-rose-400 hover:bg-rose-500 text-white font-bold px-5 py-2 rounded-full transition"
